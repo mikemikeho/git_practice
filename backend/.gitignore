@@ -1,0 +1,23 @@
+# Backend .gitignore (git_practice/backend/.gitignore)
+# Virtual environment
+
+venv/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+
+# Media/static files (if generated locally)
+media/
+staticfiles/
+
+# Environment & secrets
+.env
+.env.local
+
+# Migrations (optional — usually you DO commit these, but ignore if you prefer)
+# */migrations/*.py
+# */migrations/*.pyc
