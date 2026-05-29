@@ -121,7 +121,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-#Queries to AIs_20260523(Sat).docx
+# According to 20260523_021, Queries to AIs_20260523(Sat)
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
 ]
