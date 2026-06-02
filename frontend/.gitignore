@@ -1,21 +1,22 @@
-# According to 20260523_041, Queries to AIs_20260523(Sat)
-#Frontend .gitignore (git_practice/frontend/.gitignore)
-# Node dependencies
+# The followings were provided by https://www.toptal.com/developers/gitignore/api/react
 
-node_modules/
+# Created by https://www.toptal.com/developers/gitignore/api/react
+# Edit at https://www.toptal.com/developers/gitignore?templates=react
 
-# Build output
-dist/
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
 
-# Local environment
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+node_modules
+bower_components
 
-# Debug logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+*.sublime*
+
+psd
+thumb
+sketch
+
+# End of https://www.toptal.com/developers/gitignore/api/react

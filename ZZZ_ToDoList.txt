@@ -1,3 +1,3 @@
 Format: ==> creation date_to do task_due date
 
-==> 20260527_add files to gitignore for react_none
+==> (DONE)20260527_add files to gitignore for react_none
